@@ -5,7 +5,9 @@ import config as config
 BASE_URI = 'https://api.bing.microsoft.com/v7.0/images/visualsearch'
 SUBSCRIPTION_KEY = config.subscription_key
 # IMG_4405_compressed
-imagePath = '/Users/nathangupta/Desktop/Bookshelf/compressed/IMG_4405_compressed_resized.jpeg'
+# IMG_7626_resized.jpeg
+# IMG_4405_compressed_resized.jpeg
+imagePath = '/Users/nathangupta/Desktop/Bookshelf/compressed/IMG_7626_resized.jpeg'
 
 def print_json(obj):
     """Print the object as json"""
