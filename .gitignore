@@ -5,3 +5,4 @@ package-lock.json
 
 # Credentials / Local Config
 .env
+test_output.json
