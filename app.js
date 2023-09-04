@@ -14,14 +14,14 @@ function requestCallback(err, res, body) {
     console.log(JSON.stringify(JSON.parse(body), null, '  '))
 }
 
-```
+/*
 --boundary_1234-abcd
 Content-Disposition: form-data; name="image"; filename="myimagefile.jpg"
 
 ÿØÿà JFIF ÖÆ68g-¤CWŸþ29ÌÄøÖ‘º«™æ±èuZiÀ)"óÓß°Î= ØJ9á+*G¦...
 
 --boundary_1234-abcd--
-```
+*/
 
 var form = new FormData();
 form.append("image", fs.createReadStream(imagePath));
